@@ -16,5 +16,6 @@ public class Challenge {
         int sum = a + b;
         int average = sum / 2;
         sum = sum + average;
+        Challenge.sum = Challenge.sum + average;
     }
 }
